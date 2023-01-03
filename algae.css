@@ -1,0 +1,51 @@
+html {
+  max-width: max-content;
+  margin: auto;
+}
+
+body {
+  font-size: 18pt;
+
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+
+  color: black;
+
+  background: url(green.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #8094d6;
+}
+
+a:hover,
+a:active {
+  color: #ff9933;
+}
+
+.white {
+  background-color: rgba(240, 255, 255, 0.8);
+  width: 80%;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
